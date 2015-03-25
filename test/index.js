@@ -16,6 +16,6 @@ describe('WNO', function () {
 		wno.getTimestamp();//Now
 		should(wno.getTimestamp('test'))
 			.be.greaterThan(wno.getTimestamp() - 10);//Now
-		should(wno.getTimestamp('2014-03-03 12:48:00')).be.equal(1393822080);
+		should(wno.getTimestamp('2015-03-03 12:48:00')).be.lessThan(wno.getTimestamp() - 3600 * 24 * 7);
 	});
 });
