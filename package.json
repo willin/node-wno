@@ -1,0 +1,32 @@
+{
+  "name": "wno",
+  "version": "0.0.1",
+  "description": "Wonderful Number Operator",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willin/node-wno.git"
+  },
+  "maintainers": [
+    {
+      "name": "Willin Wang",
+      "email": "willin@willin.org"
+    }
+  ],
+  "keywords": [
+    "Number",
+    "Operator",
+    "Wonderful",
+    "Views",
+    "Visitors"
+  ],
+  "author": "Willin Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willin/node-wno/issues"
+  },
+  "homepage": "https://github.com/willin/node-wno"
+}
