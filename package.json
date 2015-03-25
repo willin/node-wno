@@ -4,7 +4,7 @@
   "description": "Wonderful Number Operator",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha  -- --timeout 500000 --slow 30 --recursive test/ --bail"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,12 @@
   "bugs": {
     "url": "https://github.com/willin/node-wno/issues"
   },
-  "homepage": "https://github.com/willin/node-wno"
+  "homepage": "https://github.com/willin/node-wno",
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "eslint": "^0.17.1",
+    "istanbul": "^0.3.8",
+    "mocha": "^2.2.1",
+    "should": "^5.2.0"
+  }
 }
