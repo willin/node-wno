@@ -1,6 +1,6 @@
 {
   "name": "wno",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wonderful Number Operator",
   "main": "index.js",
   "scripts": {
